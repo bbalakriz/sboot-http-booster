@@ -28,7 +28,7 @@ import org.springframework.stereotype.Component;
 public class GreetingEndpoint {
     @GET
     @Produces("application/json")
-    public Greeting greeting(@QueryParam("name") @DefaultValue("") String name) {
+    public Greeting greeting(@QueryParam("name") @DefaultValue("some value") String name) {
         final String message = String.format(Greeting.FORMAT, name);
         System.out.println(message);
         return new Greeting(message);
