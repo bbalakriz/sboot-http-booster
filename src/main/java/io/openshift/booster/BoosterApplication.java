@@ -33,5 +33,7 @@ public class BoosterApplication {
     @Bean
     public JacksonJsonProvider jsonProvider() {
         return new JacksonJsonProvider();
+        
+        // Adding in some stuff here
     }
 }
