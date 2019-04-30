@@ -25,6 +25,9 @@ public class BoosterApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BoosterApplication.class, args);
+        
+        // Added some stuff here..
+        
     }
 
     @Bean
