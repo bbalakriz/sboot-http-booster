@@ -5,6 +5,7 @@ node("launchpad-maven") {
   }
   stage("Deploy") {
     sh "mvn fabric8:deploy -Popenshift -DskipTests"
+    # added more comments
   }
   #modified pipeline further
 }
