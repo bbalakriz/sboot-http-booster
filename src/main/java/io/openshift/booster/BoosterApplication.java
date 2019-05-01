@@ -28,6 +28,8 @@ public class BoosterApplication {
         
         // Added some stuff here..
         
+        // More new stuff goes here
+        
     }
 
     @Bean
