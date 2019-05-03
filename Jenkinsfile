@@ -7,5 +7,5 @@ node("launchpad-maven") {
     sh "mvn fabric8:deploy -Popenshift -DskipTests"
     # added more comments
   }
-  #modified pipeline further
+  #modified pipeline to include openshift deployment
 }
